@@ -22,13 +22,12 @@ nav span {
   padding: 10px;
 
 }
-.column,
-.mainStory,
-.banner,
-.content,
-.textContent,
-.imageBanner {
+div {
   border: 1px solid;
+}
+.mainContent {
+  display: flex;
+  justify-content: space-around;
 }
 .column.large {
   width: 630px;
